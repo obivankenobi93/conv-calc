@@ -10,7 +10,7 @@
 <body>
 <section class="calculator">
     <div class="container">
-        <div class="calculator-result" >
+        <div class="calculator-result">
             <output class="calculator-result__field" id="result"></output>
         </div>
         <div class="calculator-btns">
@@ -40,7 +40,55 @@
     </div>
 </section>
 
+<section class="additional-task">
+    <div class="inputArea">
+    <div>
+        <label>Имя
+            <input type="text" readonly value="Сергей">
+        </label>
+    </div>
+    <div>
+        <label>Фамилия
+            <input type="text" readonly value="Гостев">
+        </label>
+    </div>
+    <div>
+        <label>Отчество
+            <input type="text" readonly value="Николаевич">
+        </label>
+    </div>
+    <div>
+        <label>Пароль
+            <input type="password" readonly id="view-input" value="1234567890" >
+        </label>
+        <button type="button" class="view-password">Показать пароль</button>
+    </div>
+    </div>
+    <button type="button" id="btn-edit">Редактировать</button>
+    <button type="button" id="btn-add"> Добавить </button>
+</section>
+<section   class="tableSection" style="padding: 50px 0 300px 0">
+    <table style="width: 100%; ">
+        <tr>
+            <td>Номер</td>
+            <td>Имя</td>
+            <td>Фамилия</td>
+            <td>Отчество</td>
+            <td>Пароль</td>
+            <td>Удалить</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Сергей</td>
+            <td>Гостев</td>
+            <td>Николаевич</td>
+            <td>1234567890</td>
+            <td>Удалить</td>
+        </tr>
+    </table>
+</section>
 
 <script src="scripts.js"></script>
+<script src="additional_task.js"></script>
 </body>
 </html>
