@@ -115,3 +115,39 @@ table, th, td {
     margin-bottom: 10px;
 }
 
+.table_conv{
+    width: 500px;
+    border: solid 2px rgba(36, 33, 33, 0.5);
+    border-radius: 20px;
+    background-color: rgba(43, 94, 156, 0.51);
+    padding: 20px;
+    height: 628px;
+    display: grid;
+}
+
+.together {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_field input{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.currency_text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.bel_rub {
+    font-weight: normal;
+}
+
